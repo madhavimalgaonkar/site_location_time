@@ -72,6 +72,11 @@ class LocationTimeBlock extends BlockBase implements ContainerFactoryPluginInter
             '#title' => $this->t('Site Location and Time'),
             '#body' => $location,
             '#description' => $formatteddate,
+            '#attributes' => [
+                'class' => [
+                    'site-location-time--block',
+                ],
+            ],
         ];
     }   
 }

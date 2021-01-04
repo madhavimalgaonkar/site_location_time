@@ -12,9 +12,6 @@ function site_location_time_theme($existing, $type, $theme, $path) {
                 'description' => NULL
             ],
             'template' => 'block--site-location-time',
-            'attributes' => [
-                'class' => 'site-location-time',
-            ],
         ]
     ];
 }
