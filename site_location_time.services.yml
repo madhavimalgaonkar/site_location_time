@@ -1,0 +1,4 @@
+services:
+  site_location_time.sitetime:
+    class: Drupal\site_location_time\Service\SiteTime
+    arguments: ['@datetime.time', '@date.formatter']

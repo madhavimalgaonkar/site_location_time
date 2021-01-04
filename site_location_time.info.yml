@@ -1,0 +1,5 @@
+name: Site Location and Time
+type: module
+description: Adds block to show sites' location and current time based on site settings.
+core: 8.x
+package: Custom

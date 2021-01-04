@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a block.
+ *
+ * Available variables:
+ * - title: The block title.
+ * - body: The block body.
+ * - description: The block description.
+ * - attributes: Remaining HTML attributes for the element, including:
+ *   - class: HTML classes that can be used to style contextually through CSS.
+ *
+ * @see template_preprocess_block()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class={{ attributes.class }}>
+    <h2> {{ title }} </h2>
+    <p>{{ body }}</p>
+    <strong> {{ description }} </strong>
+</div>

@@ -1,0 +1,5 @@
+site_location_time.site_settings:  
+  title: 'Site Location and Time Settings'
+  route_name: 'site_location_time.site_settings'
+  parent: 'system.admin_config_system'
+  description: 'Settings form for site location and time'
